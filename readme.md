@@ -94,6 +94,15 @@ WebAssembly、Emscripten、WebGL
     ```
 
 ### Makefile
+* 编辑math.cpp代码
+    ```
+    #define API extern "C"
+
+    API int square(int x)
+    {
+	    return x * x;
+    }
+    ```
 * 编辑Makefile.txt文件
     ```
     CC=emcc
