@@ -141,6 +141,16 @@ WebAssembly、Emscripten、WebGL
 
     > 执行命令：`emmake nmake -f Makefile.txt`
 
+## 2018-06-11
+
+### Visual Studio 2017
+* 在./Build文件夹下创建Solution空白解决方案
+* 在解决方案下添加Core共享项目
+* 在解决方案下添加Test共享项目
+* 编写源代码
+
 ### WebGL
 * [中文MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API/Tutorial)
 * 依赖库：-lGLESv2 -lEGL
+* https://developer.mozilla.org/zh-CN/docs/WebAssembly/Using_the_JavaScript_API
+
